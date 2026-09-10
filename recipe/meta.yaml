@@ -5,12 +5,12 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/s/spacy-alignments/spacy_alignments-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/s/spacy-alignments/spacy_alignments-{{ version }}.tar.gz
   sha256: 1c50b50d261550d3220887cfd0a12a6e85e709d815a66949f6b92340e4278d69
 
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
