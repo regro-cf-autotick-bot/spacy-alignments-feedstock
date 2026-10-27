@@ -1,12 +1,12 @@
-{% set version = "0.9.2" %}
+{% set version = "0.9.3" %}
 
 package:
   name: spacy-alignments
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/s/spacy-alignments/spacy_alignments-{{ version }}.tar.gz
-  sha256: 1c50b50d261550d3220887cfd0a12a6e85e709d815a66949f6b92340e4278d69
+  url: https://files.pythonhosted.org/packages/source/s/spacy-alignments/spacy_alignments-{{ version }}.tar.gz
+  sha256: 3b5cd3fe1de6fbeecaaf492a72077799567ed9bfc5ee78ae4f34effe52327644
 
 
 build:
